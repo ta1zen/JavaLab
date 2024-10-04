@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab0.Variant16Test" tests="30" skipped="0" failures="1" errors="0" timestamp="2024-08-30T11:16:34" hostname="MacBook-Air-Andrej.local" time="0.028">
+  <properties/>
+  <testcase name="sortArrayTest[0]([I@28f2a10f, [I@f736069)" classname="lab0.Variant16Test" time="0.002"/>
+  <testcase name="sortArrayTest[1]([I@1e04fa0a, [I@1af2d44a)" classname="lab0.Variant16Test" time="0.001"/>
+  <testcase name="sortArrayTest[2]([I@618425b5, [I@58695725)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="sortArrayTest[3]([I@f5acb9d, [I@4fb3ee4e)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testCalculateDaysAndDistance[0](10.0, 12, 213.84)" classname="lab0.Variant16Test" time="0.003"/>
+  <testcase name="testCalculateDaysAndDistance[1](20.0, 9, 207.98)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testCalculateDaysAndDistance[2](5.0, 15, 215.78)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testConvertAgeToString[0](20, двадцять років)" classname="lab0.Variant16Test" time="0.003"/>
+  <testcase name="testConvertAgeToString[1](32, тридцять два роки)" classname="lab0.Variant16Test" time="0.001"/>
+  <testcase name="testConvertAgeToString[2](41, сорок один рік)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testConvertAgeToString[3](59, п’ятдесят дев’ять років)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testGetPowers[0](2, 5, [D@3e11f9e9)" classname="lab0.Variant16Test" time="0.003"/>
+  <testcase name="testGetPowers[1](3, 4, [D@21282ed8)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testGetPowers[2](5, 3, [D@7bab3f1a)" classname="lab0.Variant16Test" time="0.001"/>
+  <testcase name="testGetPowers[3](10, 2, [D@23c30a20)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testGetSpiralOrder[0]([[I@3cebbb30, [I@12aba8be)" classname="lab0.Variant16Test" time="0.001">
+    <failure message="java.lang.IllegalArgumentException: Matrix must have an odd order" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Matrix must have an odd order
+	at lab0.variant16.getSpiralOrder(variant16.java:115)
+	at lab0.Variant16Test.testGetSpiralOrder(Variant16Test.java:148)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:153)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:96)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:119)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:66)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="testGetSpiralOrder[1]([[I@4b8ee4de, [I@27f981c6)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testGetSpiralOrder[2]([[I@1151e434, [I@2dc54ad4)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testIsEvenAndTwoDigit[0](12, true)" classname="lab0.Variant16Test" time="0.001"/>
+  <testcase name="testIsEvenAndTwoDigit[1](23, false)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testIsEvenAndTwoDigit[2](100, false)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testIsEvenAndTwoDigit[3](8, false)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testIsEvenAndTwoDigit[4](44, true)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testIsEvenAndTwoDigit[5](99, false)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testProcessVariables[0](1.0, 2.0, 3.0, [D@506ae4d4)" classname="lab0.Variant16Test" time="0.001"/>
+  <testcase name="testProcessVariables[1](3.0, 2.0, 1.0, [D@73e9cf30)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testProcessVariables[2](5.0, 5.0, 5.0, [D@2d52216b)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testSwapTensAndUnits[0](123, 132)" classname="lab0.Variant16Test" time="0.001"/>
+  <testcase name="testSwapTensAndUnits[1](456, 465)" classname="lab0.Variant16Test" time="0.0"/>
+  <testcase name="testSwapTensAndUnits[2](789, 798)" classname="lab0.Variant16Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
