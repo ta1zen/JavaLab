@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab2.RoomServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-10-18T10:49:57" hostname="MacBook-Air-Andrej.local" time="0.012">
+  <properties/>
+  <testcase name="testFindRoomsByType" classname="lab2.RoomServiceTest" time="0.003"/>
+  <testcase name="testGetTotalNumberOfBeds" classname="lab2.RoomServiceTest" time="0.001"/>
+  <testcase name="testSortRoomsByNum" classname="lab2.RoomServiceTest" time="0.004"/>
+  <testcase name="testSortRoomsByNumberOfBeds" classname="lab2.RoomServiceTest" time="0.001"/>
+  <testcase name="testSortRoomsByType[0]([Room{type='Deluxe', numberOfBeds=2, roomNumber=101, amenities='WiFi'}, Room{type='Simple', numberOfBeds=1, roomNumber=102, amenities='WiFi'}, Room{type='Deluxe', numberOfBeds=3, roomNumber=103, amenities='WiFi'}], [Room{type='Simple', numberOfBeds=1, roomNumber=102, amenities='WiFi'}, Room{type='Deluxe', numberOfBeds=2, roomNumber=101, amenities='WiFi'}, Room{type='Deluxe', numberOfBeds=3, roomNumber=103, amenities='WiFi'}])" classname="lab2.RoomServiceTest" time="0.001"/>
+  <testcase name="testSortRoomsByType[1]([Room{type='Simple', numberOfBeds=1, roomNumber=201, amenities='WiFi'}, Room{type='Premium', numberOfBeds=2, roomNumber=202, amenities='WiFi'}, Room{type='Deluxe', numberOfBeds=3, roomNumber=203, amenities='WiFi'}], [Room{type='Simple', numberOfBeds=1, roomNumber=201, amenities='WiFi'}, Room{type='Deluxe', numberOfBeds=3, roomNumber=203, amenities='WiFi'}, Room{type='Premium', numberOfBeds=2, roomNumber=202, amenities='WiFi'}])" classname="lab2.RoomServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

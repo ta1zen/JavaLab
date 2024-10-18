@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab2.RoomTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-18T10:49:57" hostname="MacBook-Air-Andrej.local" time="0.005">
+  <properties/>
+  <testcase name="roomDataHash[0](Room{type='Simple', numberOfBeds=2, roomNumber=101, amenities='WiFi, Air Conditioning'}, Room{type='Deluxe', numberOfBeds=2, roomNumber=101, amenities='WiFi, Air Conditioning'}, true)" classname="lab2.RoomTest" time="0.001"/>
+  <testcase name="roomDataHash[1](Room{type='Simple', numberOfBeds=2, roomNumber=101, amenities='WiFi, Air Conditioning'}, Room{type='Simple', numberOfBeds=2, roomNumber=102, amenities='WiFi, Air Conditioning'}, false)" classname="lab2.RoomTest" time="0.001"/>
+  <testcase name="testEquals[0](Room{type='Simple', numberOfBeds=2, roomNumber=101, amenities='WiFi, Air Conditioning'}, Room{type='Deluxe', numberOfBeds=2, roomNumber=101, amenities='WiFi, Air Conditioning'}, true)" classname="lab2.RoomTest" time="0.001"/>
+  <testcase name="testEquals[1](Room{type='Simple', numberOfBeds=2, roomNumber=101, amenities='WiFi, Air Conditioning'}, Room{type='Simple', numberOfBeds=2, roomNumber=102, amenities='WiFi, Air Conditioning'}, false)" classname="lab2.RoomTest" time="0.0"/>
+  <testcase name="testToString[0](Room{type='Deluxe', numberOfBeds=2, roomNumber=101, amenities='WiFi, Air Conditioning'}, Room{type='Deluxe', numberOfBeds=2, roomNumber=101, amenities='WiFi, Air Conditioning'})" classname="lab2.RoomTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
