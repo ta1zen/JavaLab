@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab5.RoomBuilderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-08T11:13:10" hostname="MacBook-Air-Andrej.local" time="0.135">
+  <properties/>
+  <testcase name="testBuildRoom" classname="lab5.RoomBuilderTest" time="0.126"/>
+  <testcase name="testBuildRoomWithZeroBeds" classname="lab5.RoomBuilderTest" time="0.007"/>
+  <system-out><![CDATA[[]
+validation error in numberOfBeds, value `0` should satisfy condition: Number of beds must be at least 1
+validation error in type, value `null` should satisfy condition: Type cannot be null
+]]></system-out>
+  <system-err><![CDATA[нояб. 08, 2024 1:13:10 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 8.0.1.Final
+]]></system-err>
+</testsuite>
