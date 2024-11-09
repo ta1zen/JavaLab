@@ -1,0 +1,9 @@
+---
+- lastName: "Smith"
+  firstName: "Jane"
+  documentId: 67890
+  birthDate: "1985-05-20"
+- lastName: "Doe"
+  firstName: "John"
+  documentId: 12345
+  birthDate: "1990-01-01"
