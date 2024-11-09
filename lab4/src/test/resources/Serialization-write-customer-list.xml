@@ -1,0 +1,14 @@
+<List12>
+  <item>
+    <lastName>Smith</lastName>
+    <firstName>Jane</firstName>
+    <documentId>67890</documentId>
+    <birthDate>1985-05-20</birthDate>
+  </item>
+  <item>
+    <lastName>Doe</lastName>
+    <firstName>John</firstName>
+    <documentId>12345</documentId>
+    <birthDate>1990-01-01</birthDate>
+  </item>
+</List12>
